@@ -1,3 +1,7 @@
+/**
+ * 判断文件是否存在
+*/
+
 #include <iostream>
 #include "unistd.h"
 #include "stdio.h"
@@ -17,16 +21,6 @@ int main(){
     } else
     {
         printf("file has alreday exist!\n");
-        //返回非零值，说明文件不可读
-        int i = access("/foton/VIN.vin",R_OK);
-        printf("%d\n",i);
-        if (int i = access("/foton/VIN.vin",R_OK))
-        {
-            printf("file can`t be read!\n");
-        } else
-        {
-            printf("file can be read!\n");
-        }
     }
     
     
