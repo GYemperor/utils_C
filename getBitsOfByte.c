@@ -5,7 +5,7 @@ int getBitsOfByte(int startPlace, int len, int data) {
     int i = 0;
     int testData = 1;
     
-    if (startPlace + len > 7)
+    if (startPlace + len > 8)
     {
         return -1;
     }
